@@ -7,4 +7,4 @@ ENV GITHUB_USER_NAME ""
 ENV GITHUB_TOKEN ""
 ENV GITHUB_EMAIL ""
 
-CMD ["bash", "init.sh"]
+RUN bash init.sh
